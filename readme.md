@@ -1,6 +1,6 @@
 # Agentic RAG Financial Document Analysis System (LangGraph & Qwen2.5)
 
-[](https://colab.research.google.com/github/Prabuddha-B/agentic-rag-financial-analyst/blob/main/Notebook/apple_financial_agent.ipynb)
+<a href="https://colab.research.google.com/github/Prabuddha-B/agentic-rag-financial-analyst/blob/main/Notebook/apple_financial_agent.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 An end-to-end **Agentic Retrieval-Augmented Generation (RAG)** system that autonomously analyzes Apple Inc.'s multi-year SEC Form 10-K filings (FY2023–FY2025), executes deterministic Python financial calculations, generates visualisations, and compiles a structured, citation-backed PDF report.
 
@@ -42,9 +42,16 @@ User Question
 
 ### Generated Visualisations
 
-| Revenue Trend (FY2023–FY2025) | FY2025 Category Revenue Share |
-| :---: | :---: |
-|  |  |
+<table>
+  <tr>
+    <th>Revenue Trend (FY2023–FY2025)</th>
+    <th>FY2025 Category Revenue Share</th>
+  </tr>
+  <tr>
+    <td><img src="Outputs/apple_revenue_trend_chart.png" width="420"/></td>
+    <td><img src="Outputs/apple_category_pie_chart.png" width="380"/></td>
+  </tr>
+</table>
 
 Full generated report: [Outputs/apple\_financial\_analysis\_report.pdf](https://www.google.com/search?q=Outputs/apple_financial_analysis_report.pdf)
 
